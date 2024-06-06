@@ -24,7 +24,8 @@ public class Main {
     }
     static int getSubtract(int n1, int n2){
         int n3=n2-n1;
-        System.out.println();
+        System.out.println(n3);
         return n3;
     }
+    //This comment is here so that I can verify that the workflow is responding positively to any change made.
 }
