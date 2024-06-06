@@ -9,11 +9,22 @@ public class Main {
 
 
         // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        int n1=3;
+        int n2=4;
+        getSum(n1,n2);
+        getSubtract(n1,n2);
+
+    }
+
+    static int getSum(int n1, int n2){
+        int n3=n1+n2;
+        System.out.println(n3);
+        return n3;
+    }
+    static int getSubtract(int n1, int n2){
+        int n3=n2-n1;
+        System.out.println();
+        return n3;
     }
 }
