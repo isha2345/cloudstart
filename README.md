@@ -1,4 +1,24 @@
-# CI/CD  Pipeline Part 1
+# CI/CD Pipeline Part 1
 
 ## Introduction
-I have taken a basic java code, and added JUnit Tests for the individual working parts of my code. After that, I created a workflow that is triggered both manually, and when some commits changes as well. 
+I've enhanced a foundational Java codebase by incorporating JUnit tests to validate each functional aspect. Subsequently, I've established a workflow that activates both manually and automatically in response to any committed changes.
+
+## Part 1: Making changes from Git Bash
+I made some changes in the code, and ran the following commands to trigger the workflow:
+```
+git add .
+git commit -m "TRIGGER"
+git pull origin main
+pit push origin main
+```
+
+It actiivated the Workflow.
+![Part1](Part1.png)
+
+## Part 2: Making changes by editing the file in Github itself
+
+
+## Part 3: Manually activating the workflow
+
+
+
