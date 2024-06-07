@@ -22,7 +22,7 @@ It activated the Workflow.
 
 ## Part 3: Manually activating the workflow
 
-1[Part3](Part3.png)
+![Part3](Part3.png)
 
 
 
