@@ -12,13 +12,17 @@ git pull origin main
 pit push origin main
 ```
 
-It actiivated the Workflow.
+It activated the Workflow.
+
 ![Part1](Part1.png)
 
 ## Part 2: Making changes by editing the file in Github itself
 
+![Part2](Part2.png)
 
 ## Part 3: Manually activating the workflow
+
+1[Part3](Part3.png)
 
 
 
